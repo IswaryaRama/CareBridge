@@ -47,5 +47,3 @@ A Java Spring Boot web application with a responsive browser UI and a persistent
 - `GET, POST /api/appointments`; `PUT /api/appointments/{id}/status`; `DELETE /api/appointments/{id}`
 - `GET, POST /api/bills`; `PUT /api/bills/{id}/payment`; `DELETE /api/bills/{id}`
 
-## Important limitations
-This is an educational local project, not a production clinical system. It does not yet include authentication/authorization, automated tests, audit logs, encrypted backups, consent/privacy workflows, or production deployment hardening. Do not enter real patient medical data. SQLite is useful for a local demo; a multi-user production deployment usually needs a managed server database and security review.
